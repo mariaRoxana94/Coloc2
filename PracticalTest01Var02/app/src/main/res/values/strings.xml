@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PracticalTest01Var02</string>
+    <string name="app_name2">PracticalTest01Var02Secondary</string>
+    <string name="firstEdit">1</string>
+    <string name="secondEdit">1</string>
+    <string name="thirdEdit">Rezultat</string>
+    <string name="plusButton">+</string>
+    <string name="minusButton">-</string>
+    <string name="navigate_button">Navigate to secondary Activitaty</string>
+    <string name="resultEdit">Result</string>
+    <string name="correctButt">Correct</string>
+    <string name="incorrectButt">Incorrect</string>
+
+</resources>

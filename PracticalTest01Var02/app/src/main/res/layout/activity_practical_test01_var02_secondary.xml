@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="practicaltest01.eim.systems.cs.pub.ro.practicaltest01var02.view.PracticalTest01Var02SecondaryActivity">
+
+    <EditText
+        android:id="@+id/result_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:enabled="false"
+        android:text="@string/resultEdit"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/correct_butt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/correctButt"/>
+        <Button
+            android:id="@+id/incorrect_butt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/incorrectButt"/>
+    </LinearLayout>
+
+</LinearLayout>
